@@ -1,0 +1,200 @@
+.absolutely-relative-images {
+    position: absolute;
+    width: 100%;
+}
+
+.absolutely-relative-images img {
+    position: absolute;
+    height: 4.8rem;
+    opacity: 0;
+    animation: moveImage 18s linear infinite;
+    animation-delay: calc(0.1s + var(--random-speed))
+}
+
+.absolutely-relative-images img:nth-child(1) {
+    left: 2.8%;
+    --random-speed: 14s;
+}
+.absolutely-relative-images img:nth-child(2) {
+    left: 2.5%;
+    --random-speed: 2.5s;
+}
+.absolutely-relative-images img:nth-child(3) {
+    left: 4.5%;
+    --random-speed: 3.5s;
+}
+.absolutely-relative-images img:nth-child(4) {
+    left: 6.5678%;
+    --random-speed: 9.5s;
+}
+.absolutely-relative-images img:nth-child(5) {
+    left: 91%;
+    --random-speed: 2.3s;
+}
+.absolutely-relative-images img:nth-child(6) {
+    left: 10.55%;
+    --random-speed: 24s;
+}
+.absolutely-relative-images img:nth-child(7) {
+    left: 13.34%;
+    --random-speed: 9.4s;
+}
+.absolutely-relative-images img:nth-child(8) {
+    left: 15.55%;
+    --random-speed: 14s;
+}
+.absolutely-relative-images img:nth-child(9) {
+    left: 17%;
+    --random-speed: .95s;
+}
+.absolutely-relative-images img:nth-child(10) {
+    left: 19.44%;
+    --random-speed: 7s;
+}
+.absolutely-relative-images img:nth-child(11) {
+    left: 24%;
+    --random-speed: 14.9s;
+}
+.absolutely-relative-images img:nth-child(12) {
+    left: 22%;
+    --random-speed: 5.3s;
+}
+.absolutely-relative-images img:nth-child(13) {
+    left: 26%;
+    --random-speed: 5.7s;
+}
+.absolutely-relative-images img:nth-child(14) {
+    left: 28%;
+    --random-speed: 8.5s;
+}
+.absolutely-relative-images img:nth-child(15) {
+    left: 85%;
+    --random-speed: 21.4s;
+}
+.absolutely-relative-images img:nth-child(16) {
+    left: 81.3222%;
+    --random-speed: 1.3s;
+}
+.absolutely-relative-images img:nth-child(17) {
+    left: 32%;
+    --random-speed: 2.7s;
+}
+.absolutely-relative-images img:nth-child(18) {
+    left: 35%;
+    --random-speed: 12.2s;
+}
+.absolutely-relative-images img:nth-child(19) {
+    left: 29.9%;
+    --random-speed: 9.52s;
+}
+.absolutely-relative-images img:nth-child(20) {
+    left: 38%;
+    --random-speed: 5.8s;
+}
+.absolutely-relative-images img:nth-child(21) {
+    left: 40%;
+    --random-speed: 21.2345s;
+}
+.absolutely-relative-images img:nth-child(22) {
+    left: 42%;
+    --random-speed: .33s;
+}
+.absolutely-relative-images img:nth-child(23) {
+    left: 44%;
+    --random-speed: 3.45s;
+}
+.absolutely-relative-images img:nth-child(24) {
+    left: 46%;
+    --random-speed: 5.788s;
+}
+.absolutely-relative-images img:nth-child(25) {
+    left: 48%;
+    --random-speed: 18.2s;
+}
+.absolutely-relative-images img:nth-child(26) {
+    left: 50%;
+    --random-speed: 6.9s;
+}
+.absolutely-relative-images img:nth-child(27) {
+    left: 52%;
+    --random-speed: 10.4s;
+}
+.absolutely-relative-images img:nth-child(28) {
+    left: 54%;
+    --random-speed: 6.9s;
+}
+.absolutely-relative-images img:nth-child(29) {
+    left: 56%;
+    --random-speed: 19.1s;
+}
+.absolutely-relative-images img:nth-child(30) {
+    left: 58%;
+    --random-speed: .61s;
+}
+.absolutely-relative-images img:nth-child(31) {
+    left: 60%;
+    --random-speed: 5.9s;
+}
+.absolutely-relative-images img:nth-child(32) {
+    left: 62%;
+    --random-speed: 7.8s;
+}
+.absolutely-relative-images img:nth-child(33) {
+    left: 64%;
+    --random-speed: 4.3s;
+}
+.absolutely-relative-images img:nth-child(34) {
+    left: 66%;
+    --random-speed: 8.6s;
+}
+.absolutely-relative-images img:nth-child(35) {
+    left: 68%;
+    --random-speed: 9.34s;
+}
+.absolutely-relative-images img:nth-child(36) {
+    left: 70%;
+    --random-speed: 15s;
+}
+.absolutely-relative-images img:nth-child(37) {
+    left: 72%;
+    --random-speed: .98765s;
+}
+.absolutely-relative-images img:nth-child(38) {
+    left: 74%;
+    --random-speed: 3.6s;
+}
+.absolutely-relative-images img:nth-child(39) {
+    left: 86%;
+    --random-speed: 4.8s;
+}
+.absolutely-relative-images img:nth-child(40) {
+    left: 83.3327%;
+    --random-speed: 5s;
+}
+.absolutely-relative-images img:nth-child(41) {
+    left: 92%;
+    --random-speed: 13.2s;
+}
+.absolutely-relative-images img:nth-child(42) {
+    left: 94%;
+    --random-speed: 9.8s;
+}
+.absolutely-relative-images img:nth-child(43) {
+    left: 87%;
+    --random-speed: 2.5s;
+}
+.absolutely-relative-images img:nth-child(44) {
+    left: 84%;
+    --random-speed: 18s;
+}
+
+@keyframes moveImage {
+    0% {
+        transform: translateY(100%) rotate(4deg);
+        opacity: .5;
+    }
+    100% {
+        transform: translateY(-3000%) rotate(360deg);
+        opacity: 0;
+    }
+}

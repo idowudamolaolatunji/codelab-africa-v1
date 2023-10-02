@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="public/assets/imgs/codelab-fav.png">
+
+    <!-- flat icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    
+    <!--  -->
+    <link rel="stylesheet" href="sweetalert2.min.css">
+
+    <!-- css style sheets -->
+    <link rel="stylesheet" href="public/src/css/animation.css">
+    <link rel="stylesheet" href="public/src/css/general.css">
+    <link rel="stylesheet" href="public/src/css/index.css">
+    <link rel="stylesheet" href="public/src/css/query.css">
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.min.js"></script>
+
+    <!--  -->
+    <script defer src="public/src/js/index.js"></script>
+    <script defer src="public/src/js/marquee.js"></script>
+
+    <!--  -->
+    <title>CodeLab Africa | Ignite Your Tech Passion</title>
+</head>
+<body>
+
+    <span class="back-to-top"><a href="#"><i class="fi fi-rr-arrow-alt-up"></i>Top</a></span>
+    <div class="spinner__overlay">
+        <div class="spinner">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header -->
+    <header class="header main">
+        <div class="header__container">
+
+            <span class="logo__box">
+                <a href="/index.html">
+                    <img class="nav__logo" src="public/assets/imgs/Codelab.png" alt="logo image"/>
+                </a>
+            </span>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#labs">Our Labs</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#partner">Partnership</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#testimonals">Testimonials</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li class="navbar__button nav--main">
+                        <a href="./checkout.html">Apply Now</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- mobile navigation -->
+            <label class="menu-label mobile-nav">
+                <input class="menu-input" type="checkbox">
+                <span class="menu">
+                    <span class="hamburger"></span>
+                </span>
+                <ul class="menu-nav">
+                    <li>
+                        <a href="#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#labs">Our Labs</a>
+                    </li>
+                    <li>
+                        <a href="#team">Meet our Team</a>
+                    </li>
+                    <li>
+                        <a href="#testimonals">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Us</a>
+                    </li>
+                    <li class="navbar__button nav--main">
+                        <a href="./checkout.html">Apply Now</a>
+                    </li>
+                </ul>
+            </label>
+        </div>
+    </header>
+
+    
+    <main>
+        <!-- hero section -->
+        <section class="hero__section" id="hero">
+            <div class="section__container hero">
+                <img class="hero--effect effect--display-none" src="/public/assets/imgs/hero.png" />
+                <div class="hero__details">
+                    <h1 class="heading__primary">
+                        <span class="heading__primary--main main--1">Fostering the</span><br />
+                        <!-- next wave, next generation, next minds -->
+
+                        <p class="heading__primary--extra animate-text">
+                            <span>Next Wave</span>
+                            <span>Next Generation</span>
+                            <span>Next Minds</span>
+                        </p><br />
+                        <span class="heading__primary--main main--2"> of Tech Innovators.</span>
+                    </h1>
+                    <p class="hero__text">
+                        Start your tech journey and flourish in your career with skills in demand, Epecially from experienced intructor.
+                    </p>
+
+                    <div class="hero__actions">
+                        <button class="hero__button button--filled">Contact Us</button>
+                        <button class="hero__button button--outline">Apply Now&nbsp;<i class="fi fi-rr-arrow-alt-right hero-icon-arrow"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- about us section -->
+        <section class="section about__section" id="about">
+            <div class="section__container">
+                <h3 class="section__heading">About CodeLab Africa.</h3>
+                <p class="section__text">CodeLab Africa is more than just an organization. We're a catalyst for change in the African tech landscape. We believe that the transformative power of tech should be within reach for everyone, and we're dedicated to making that vision a reality.</p>
+                <div class="about__content">
+                    <span class="about__image--box">
+                        <img class="about__image" src="/public/assets/imgs/about-img1.jpg" alt="" />
+                    </span>
+                    <div class="about__details">
+                        <img class="quotes quote--left" src="public/assets/imgs/download-removebg-preview.png" alt="quotes" />
+                        <p class="about__details--text">
+                            At CodeLab Africa, we are passionate about empowering individuals to kickstart their careers in the tech space. Our mission is to teach 10,000 Nigerian and African youths how to code without breaking the bank. As a registered organization, we are committed to making quality tech education accessible to everyone. Whether you're a complete coding newbie or looking to enhance your skills, we're here to guide you on your journey.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="absolutely-relative-images">
+                <img src="/public/assets/svgs/mongoose.svg" alt="programming language" />
+                <img src="/public/assets/svgs/dart.svg" alt="programming language" />
+                <img src="/public/assets/svgs/figma.svg" alt="programming language" />
+                <img src="/public/assets/svgs/dotNet.svg" alt="programming language" />
+                <img src="/public/assets/svgs/js.svg" alt="programming language" />
+                <img src="/public/assets/svgs/express.svg" alt="programming language" />
+                <img src="/public/assets/svgs/babel.svg" alt="programming language" />
+                <img src="/public/assets/svgs/java.svg" alt="programming language" />
+                <img src="/public/assets/svgs/flask.svg" alt="programming language" />
+                <img src="/public/assets/svgs/git.svg" alt="programming language" />
+                <img src="/public/assets/svgs/django.svg" alt="programming language" />
+                <img src="/public/assets/svgs/firebase.svg" alt="programming language" />
+                <img src="/public/assets/svgs/graphql.svg" alt="programming language" />
+                <img src="/public/assets/svgs/html.svg" alt="programming language" />
+                <img src="/public/assets/svgs/kotlin.svg" alt="programming language" />
+                <img src="/public/assets/svgs/node.svg" alt="programming language" />
+                <img src="/public/assets/svgs/mySql.svg" alt="programming language" />
+                <img src="/public/assets/svgs/rust.svg" alt="programming language" />
+                <img src="/public/assets/svgs/github.svg" alt="programming language" />
+                <img src="/public/assets/svgs/ts.svg" alt="programming language" />
+                <img src="/public/assets/svgs/flutter.svg" alt="programming language" />
+                <img src="/public/assets/svgs/solidity.svg" alt="programming language" />
+                <img src="/public/assets/svgs/npm.svg" alt="programming language" />
+                <img src="/public/assets/svgs/css.svg" alt="programming language" />
+                <img src="/public/assets/svgs/react.svg" alt="programming language" />
+                <img src="/public/assets/svgs/parcel.svg" alt="programming language" />
+                <img src="/public/assets/svgs/tailwind.svg" alt="programming language" />
+                <img src="/public/assets/svgs/php.svg" alt="programming language" />
+                <img src="/public/assets/svgs/vue.svg" alt="programming language" />
+                <img src="/public/assets/svgs/c++.svg" alt="programming language" />
+                <img src="/public/assets/svgs/postgrelsql.svg" alt="programming language" />
+                <img src="/public/assets/svgs/postman-white.svg" alt="programming language" />
+                <img src="/public/assets/svgs/redis.svg" alt="programming language" />
+                <img src="/public/assets/svgs/redux.svg" alt="programming language" />
+                <img src="/public/assets/svgs/rubyonrails.svg" alt="programming language" />
+                <img src="/public/assets/svgs/webpack.svg" alt="programming language" />
+                <img src="/public/assets/svgs/reactnative.svg" alt="programming language" />
+                <img src="/public/assets/svgs/sass.svg" alt="programming language" />
+                <img src="/public/assets/svgs/mongodb.svg" alt="programming language" />
+                <img src="/public/assets/svgs/stackoverflow.svg" alt="programming language" />
+                <img src="/public/assets/svgs/swift.svg" alt="programming language" />
+                <img src="/public/assets/svgs/vite.svg" alt="programming language" />
+                <img src="/public/assets/svgs/vsCode.svg" alt="programming language" />
+                <img src="/public/assets/svgs/nextjs.svg" alt="programming language" />
+            </div>
+        </section>
+
+
+        <!-- courses section -->
+        <section class="section course__section" id="courses">
+            <div class="section__container">
+                <img class="background__image--course" src="/public/assets/imgs/3d-construction-abstract-fluid-shapes-of-glass-1.png" />
+                <p class="section__subHeading">Courses</p>
+                <h3 class="section__heading">Our Favorite Courses For You</h3>
+                <p class="courses__text">Here are some of Code Lab Africa's transformative vitual courses awaiting your enrollment. Begin your tech journey with us and kickstart your promising career in technology today.</p>
+                
+                <span class="courses__cards">
+                    <div class="courses__figure new">
+                        <div class="course__image--box image--flex">
+                            <img src="/public/assets/svgs/html.svg" alt="frontend dev" />
+                            <img src="/public/assets/svgs/css.svg" alt="frontend dev" />
+                            <img src="/public/assets/svgs/js.svg" alt="frontend dev" />
+                        </div>
+                        <div class="course--content">
+                            <p class="content--heading size--med"><span class="content--extra">Learn </span>Html, Css and JavaScript</p>
+                            <p class="content--text">
+                                Embark on your journey into the captivating world of frontend web development with our comprehensive course in HTML, CSS, and JavaScript.
+
+                            </p>
+                            <a href="/html-css-js.html" class="profile--button-outline button">Learn More</a>
+                        </div>
+                        <div class="course--info">
+                            <p><i class="fi fi-rr-calendar-clock"></i> 9-weeks | Start: Oct 20, 2023.</p>
+                            <span>
+                                <p><i class="fi fi-rr-users-alt"></i> 359 Enrolled</p>
+                                <p><i class="fi fi-rr-chair-office"></i> 500 Slots</p>
+                                <p><i class="fi fi-rr-tags"></i>Free</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="courses__figure">
+                        <div class="course__image--box image--flex-md">
+                            <img src="/public/assets/svgs/git.svg" alt="version control" />
+                            <img src="/public/assets/svgs/github.svg" alt="version control" />
+                        </div>
+                        <div class="course--content">
+                            <p class="content--heading size--med">Version Control <span class="content--extra">Github </span>Mastery.</p>
+                            <p class="content--text">
+                                Master version control with our 'GitHub Mastery' course, this course empowers you to efficiently manage and collaborate on code using GitHub. 
+                            </p>
+                            <a href="/git-github.html" class="profile--button-outline button">Learn More</a>
+                        </div>
+                        <div class="course--info">
+                            <p><i class="fi fi-rr-calendar-clock"></i> 6-weeks | Start: Coming Soon.</p>
+                            <span>
+                                <p><i class="fi fi-rr-users-alt"></i> 0 Enrolled</p>
+                                <p><i class="fi fi-rr-chair-office"></i> 0 Slots</p>
+                                <p><i class="fi fi-rr-tags"></i>Free</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="courses__figure">
+                        <div class="course__image--box image--flex-bg">
+                            <img src="/public/assets/svgs/postman-white.svg" alt="postman api testing" />
+                        </div>
+                        <div class="course--content">
+                            <p class="content--heading size--med">Postman Api <span class="content--extra">Testing</span></p>
+                            <p class="content--text">
+                                Elevate your API testing prowess with our comprehensive "Postman API Testing" course. Postman stands as a dynamic and indispensable tool for simplifying API testing processes.
+                            </p>
+                            <a href="/postman.html" class="profile--button-outline button">Learn More</a>
+                        </div>
+                        <div class="course--info">
+                            <p><i class="fi fi-rr-calendar-clock"></i> 4-weeks | Start: Coming Soon.</p>
+                            <span>
+                                <p><i class="fi fi-rr-users-alt"></i> 0 Enrolled</p>
+                                <p><i class="fi fi-rr-chair-office"></i> 0 Slots</p>
+                                <p><i class="fi fi-rr-tags"></i>Free</p>
+                            </span>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </section>
+
+        <section class="why-choose-us__section section" id="why">
+            <div class="section__container">
+                <p class="section__subHeading">why us</p>
+                <h3 class="section__heading">Why Choose CodeLab Africa?</h3>
+                <div class="about__choose">
+                    <p class="section__text">
+                        At CodeLab Africa, we are your gateway to a transformative coding journey. Our commitment to providing quality education meets affordability, ensuring that you can launch your career in tech without breaking the bank. What sets us apart is our vibrant and supportive community of learners, mentors, and industry experts who are passionate about your success. We believe in nurturing talent and opening doors to a world of opportunities in the booming tech industry. Choose Code Lab Africa today, and embark on a path to skill mastery and career growth in the dynamic world of coding and web development.
+                    </p>
+
+                    <div class="why__cards">
+                        <div class="why--figure">
+                            <img class="why--image" src="/public/assets/imgs/experienced.png" alt="why content images" />
+                            <p class="why--title">Experienced Tutors.</p>
+                        </div>
+                        <div class="why--figure">
+                            <img class="why--image" src="/public/assets/imgs/certification.png" alt="why content images" />
+                            <p class="why--title">Certifications.</p>
+                        </div>
+                        <div class="why--figure">
+                            <img class="why--image" src="/public/assets/imgs/explained.png" alt="why content images" />
+                            <p class="why--title">Hands-On Learning.</p>
+                        </div>
+                        <div class="why--figure">
+                            <img class="why--image" src="/public/assets/imgs/affordable.png" alt="why content images" />
+                            <p class="why--title">Affordable.</p>
+                        </div>
+                        <div class="why--figure">
+                            <img class="why--image" src="/public/assets/imgs/community.png" alt="why content images" />
+                            <p class="why--title">Huge Coding Community.</p>
+                        </div>
+                        <div class="why--figure">
+                            <img class="why--image" src="/public/assets/imgs/intership.png" alt="why content images" />
+                            <p class="why--title">Job Intenship.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section labs__section" id="labs">
+            <div class="section__container">
+                <p class="section__subHeading">Labs</p>
+                <h3 class="section__heading">Find your desired lab.</h3>
+                <div class="lab__grid">
+                    <div class="labs__cards">
+                        <figure class="lab__figure lab__figure--one">
+                            <a href="/frontend-lab.html">
+                                <img class="lab__figure--image" src="/public/assets/imgs/frontend-lab.jpg" alt="codelab labs images" />
+                                <div class="lab__figure--content">
+                                    <p>Frontend Lab</p>
+                                </div>
+                            </a>
+                        </figure>
+                        <figure class="lab__figure lab__figure--two">
+                            <a href="/mobile-lab.html">
+                                <img class="lab__figure--image" src="/public/assets/imgs/mobile-lab.jpg" alt="codelab labs images" />
+                                <div class="lab__figure--content">
+                                    <p>Mobile Lab</p>
+                                </div>
+                            </a>
+                        </figure>
+                        <figure class="lab__figure lab__figure--three">
+                            <a href="/fullstack-lab.html">
+                                <img class="lab__figure--image" src="/public/assets/imgs/data-lab.jpg" alt="codelab labs images" />
+                                <div class="lab__figure--content">
+                                    <p>Full-Stack Lab</p>
+                                </div>
+                            </a>
+                        </figure>
+                        <figure class="lab__figure lab__figure--four">
+                            <a href="backend-lab.html">
+                                <img class="lab__figure--image" src="/public/assets/imgs/backend-lab.jpg" alt="codelab labs images" />
+                                <div class="lab__figure--content">
+                                    <p>Backend Lab</p>
+                                </div>
+                            </a>
+                        </figure>
+                    </div>
+                    <div class="lab__text--box">
+                        <p class="lab__text">At CodeLab, we offer a diverse array of labs tailored to meet your specific coding needs. Whether you're a beginner taking your first steps into the world of coding or an experienced developer looking to expand your skill set, we have the perfect lab for you.</p>
+                        <p class="lab__text">We are your gateway to the exciting and dynamic world of web development and coding. In this digital age, technology has become an integral part of our lives, and understanding how to create and shape it is more essential than ever. We open the doors to this ever-evolving realm, inviting you to explore its limitless possibilities.</p>
+                    </div>
+                </div>
+
+                <!-- 
+                <section class="section tutor-profile__section" id="tutor">
+                    <div class="section__container">
+                        <p class="section__subHeading">Team</p>
+                        <h3 class="section__heading">Meet our Team.</h3>
+                        <p class="section__text">Guiding You in Crafting Modern and Unique Software Solutions with Scalable and Dynamic Applications.</p>
+                    <div class="profile__card profile--one">
+                    <span class="profile--image--box">
+                        <img class="profile--image" src="/public/assets/imgs/me.png" alt="profile photo" />
+                    </span>
+                    <div class="profile--details">
+                        <p class="profile--name">Damola Idowu Olatunji</p>
+                        <p class="profile--job">Full-stack Software Developer | Progarmming Tutor </p>
+                        <span class="profile--socials">
+                            <a target="_blank" href="https://ng.linkedin.com/in/idowu-damola-olatunji-595a80218"><i class="fi fi-brands-linkedin"></i></a>
+                            <a target="_blank" href="https://twitter.com/damolaidowu06?t=CIYAvOVqhUKycNPURdPoXw&s=08 "><i class="fi fi-brands-twitter"></i></a>
+                            <a target="_blank" href="https://github.com/idowudamolaolatunji"><i class="fi fi-brands-github"></i></a>
+                            <a target="_blank" href="https://idowu-dev.netlify.app"><i class="fi fi-rr-globe"></i></a>
+                        </span>
+                        <p class="profile--bio">Hi, My name is Damola Idowu Olatunji, one of CodeLab africa's professional tutors. I'm a versatile full-stack software developer, web designer, and passionate programming tutor. With years of experience in the tech space, and knowledge and expertise to guide you on your coding journey. 
+                        My skills span a wide range of technologies, including JavaScript, HTML, CSS, React.js, Node.js, Express.js, MongoDB, and more. I combine creative design principles with robust backend development to create modern and unique user interfaces with scalable and dynamic backend applications. Join my class and explore the limitless possibilities of web development under my mentorship. Whether you're a beginner or looking to enhance your skills, I am  here to inspire and guide you to success.
+                        </p>
+                        <span class="profile--skills marquee">
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/html.svg" alt="html" />
+                                HTML
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/css.svg" alt="css" />
+                                CSS
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/sass.svg" alt="sass" />
+                                SASS
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/js.svg" alt="js" />
+                                JavaScript
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/figma.svg" alt="figma" />
+                                Figma
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/react.svg" alt="react" />
+                                React.Js
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/node.svg" alt="node" />
+                                Node.Js
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/express.svg" alt="express" />
+                                Express.Js
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/icons8-pug-48.png" alt="pug" />
+                                Pug.Js
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/mongodb.svg" alt="mongodb" />
+                                MongoDb
+                            </span>
+                            <span class="skill">
+                                <img class="skill--image" src="/public/assets/svgs/mongoose.svg" alt="mongoose" />
+                                Mongoose
+                            </span>
+                        </span>
+                        <div class="profile--actions">
+                            <a href="mailto:damolaidowudavid@gmail.com" class="profile--button-main button">Contact Me <i class="fi fi-rr-envelope"></i></a>
+                            <button class="profile--button-outline button">Donate <i class="fi fi-rr-donate"></i></button>
+                        </div>
+                    </div>
+                </div> 
+                </div>
+            </section>-->
+            </div>
+        </section>
+
+        <section class="section testimonial__section" id="testimonals">
+            <div class="section__container">
+                <p class="section__subHeading">what people say about out CodeLab Africa.</p>
+                <div class="testimonial__cards testimonial--marquee">
+                    <div class="testimonials--figure">
+                        <blockquote>
+                            CodeLab transformed my life! Starting as a coding novice, I enrolled in the Full-Stack Development Lab. Today, I earn in dollars by working remotely for global clients. Thanks to CodeLab, I'm living my dream.
+                        </blockquote>
+                        <span class="testimonial--stars">
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                        </span>
+                        <span class="testimonial--writer"><img src="/public/assets/imgs/dolapo.jpg" alt="" />- Dolapo</span>
+                    </div>
+                    <div class="testimonials--figure">
+                        <blockquote>
+                            As a newcomer to coding, I was fortunate to find CodeLab Africa. The tutors were incredibly patient and knowledgeable. They not only taught me to code but also how to think like a programmer. Today, I'm a confident developer and a mentor myself!.
+                        </blockquote>
+                        <span class="testimonial--stars">
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ts-star-sharp-half-stroke"></i>
+                        </span>
+                        <span class="testimonial--writer"><img src="/public/assets/imgs/james.jpg" alt="" />- James</span>
+                    </div>
+                    <div class="testimonials--figure">
+                        <blockquote>
+                            I started with CodeLab's full-stack development course, and it was a game-changer! I can now build complete web applications from scratch. CodeLab's hands-on approach and supportive community gave me the skills and confidence to excel.
+                            
+                        </blockquote>
+                        <span class="testimonial--stars">
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                        </span>
+                        <span class="testimonial--writer"><img src="/public/assets/imgs/brenda.jpg" alt="" />- Brenda</span>
+                    </div>
+                    <div class="testimonials--figure">
+                        <blockquote>
+                            CodeLab Africa transformed my life! Thanks to their comprehensive training, I now work remotely for a global tech giant. I never imagined coding could lead me to such amazing opportunities. CodeLab, you've changed the game.
+                        </blockquote>
+                        <span class="testimonial--stars">
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                        </span>
+                        <span class="testimonial--writer"><img src="/public/assets/imgs/taiwo.png" alt="" />- Taiwo</span>
+                    </div>
+                    <div class="testimonials--figure">
+                        <blockquote>
+                            CodeLab's commitment to democratizing tech education is truly inspiring. Thanks to their affordable courses, I've been able to make a difference in my community by creating tech solutions that address local challenges. CodeLab empowers us to drive change.
+                        </blockquote>
+                        <span class="testimonial--stars">
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                            <i class="fi fi-ss-star"></i>
+                        </span>
+                        <span class="testimonial--writer"><img src="/public/assets/imgs/nzoji.png" alt="" />- Nzoji</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section featured__section" id="featured">
+            <div class="section__container">
+                <p class="section__subHeading">featured</p>
+                <h3 class="section__heading">Featured and Trusted by</h3>
+                <span class="featured__flex">
+                    <img src="public/assets/imgs/pandev.png" alt="fetured organisation logo" />
+                    <img src="public/assets/imgs/neovacity_blue_logo.00d050cece6c1d0aaea2-removebg-preview.png" alt="fetured organisation logo" />
+                    <img src="public/assets/imgs/clubmerce.png" alt="fetured organisation logo" />
+                    <img src="public/assets/imgs/success-drive.webp" alt="fetured organisation logo" />
+                    <img class="tech-acedemy" src="public/assets/imgs/techcademy_logo-removebg-preview.png" alt="fetured organisation logo" />
+                    <img src="public/assets/imgs/his_majesty_graphic-removebg-preview-e1694713720142.png" alt="fetured organisation logo" />
+                    <img class="prestige" src="public/assets/imgs/prestige-removebg-preview.png" alt="fetured organisation logo" />
+                </span>
+            </div>
+        </section>
+
+
+        <section class="section contact-us__section" id="contact">
+            <div class="section__container">
+                <h3 class="contact__heading">Let us Have a Conversation.</h3>
+
+                <form class="contact__form">
+                    <div class="form--flex">
+                        <div class="form--item">
+                            <label class="form--label">Fullname</label>
+                            <input class="form--input" type="text" placeholder="Your Fullname" />
+                        </div>
+                        <div class="form--item">
+                            <label class="form--label">Email</label>
+                            <input class="form--input" type="email" placeholder="Your Email Address" />
+                        </div>
+                    </div>
+                    <div class="form--item">
+                        <label class="form--label">Subject</label>
+                        <input class="form--input" type="text" placeholder="Your Message subject" />
+                    </div>
+                    <div class="form--item">
+                        <label class="form--label">Message</label>
+                       <textarea class="form--textarea" placeholder="Your Brief Message"></textarea>
+                    </div>
+                    <div class="form--item">
+                        <button class="form--button" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!--  -->
+        <section class="section patner__section" id="partner">
+            <div class="section__container">
+                <p class="section__subHeading">Partnership</p>
+                <h3 class="section__heading">Patner With Us</h3>
+                <p class="section__text">Are you enthusiastic about creating a meaningful impact and igniting inspiration within the tech industry? Join us at Code Lab Africa as we share our dedication to guiding and nurturing a new generation of undiscovered tech talents.</p>
+                <div class="section__actions">
+                    <a href="/partner.html" class="patner--button button">Learn More</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="section__container">
+            <img src="/public/assets/imgs/Codelab-light-mode.png" alt="footer logo" />
+            <div class="footer__grid">
+                <div>
+                    <P>Join us Code Lab Africa as we share our dedication to guiding and nurturing a new generation of undiscovered tech talents.</P>
+                    <p class="copyright">&copy;2023 Code Lab Africa. All rights reserved.</p>
+                </div>
+                <ul>
+                    <li class="list--heading">Company</li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Courses</a></li>
+                    <li><a href="#">Tutor</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li class="list--heading">Access</li>
+                    <li><a href="#">Join Our Community</a></li>
+                    <li><a href="#">Apply Now</a></li>
+                    <li><a href="#">Partnership</a></li>
+                </ul>
+                <ul>
+                    <li class="list--heading">Contact</li>
+                    <li><a href="mailto:codecornerafrica@gmail.com"><i class="fi fi-rr-envelope"></i> codecornerafrica@gmail.com</a></li>
+                    <li><a href="tel:09057643470"><i class="fi fi-rr-phone-flip"></i> 09057643470</a></li>
+                    <span class="profile--socials">
+                        <a target="_blank" href="https://ng.linkedin.com/in/idowu-damola-olatunji-595a80218"><i class="fi fi-brands-whatsapp"></i></a>
+                        <a target="_blank" href="https://twitter.com/damolaidowu06?t=CIYAvOVqhUKycNPURdPoXw&s=08 "><i class="fi fi-brands-twitter"></i></a>
+                        <a target="_blank" href="https://github.com/idowudamolaolatunji"><i class="fi fi-brands-github"></i></a>
+                        <a target="_blank" href="https://github.com/idowudamolaolatunji"><i class="fi fi-brands-youtube"></i></a>
+                    </span>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</body>
+</html>

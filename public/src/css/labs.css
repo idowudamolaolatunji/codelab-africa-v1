@@ -1,0 +1,159 @@
+.lab-hero__section {
+    padding: 20rem 0 2.4rem;
+}
+.lab__section--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.4rem;
+    overflow: hidden;
+}
+.lab__section--heading {
+    font-size: 3.6rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg,#0035fd 20%,#eb00a1);
+    margin-bottom: 1.4rem;
+}
+.lab__section--text {
+    font-size: 1.65rem;
+    line-height: 1.6;
+}
+
+.lab__section--info, .lab__section--stat, .lab__section--box, .lab__section--stat p {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+.lab__section--image-box {
+    display: flex;
+    align-items: center;
+}
+.lab__section--image-box img {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    border: 2.4px solid #fff;
+    margin-left: -2.4rem;
+}
+.lab__section--image-box + p {
+    margin-left: -.8rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    color: #777;
+}
+.lab__section--stat p {
+    color: #777;
+    gap: .4rem;
+}
+.lab__section--stat p i {
+    color: #333
+}
+
+
+.lab-course__section {
+    padding-top: 8rem;
+}
+
+
+
+/*  */
+.lab-course-hero__section {
+    padding: 20rem 0 4.8rem;
+}
+
+.lab__section--content {
+    position: relative;
+}
+.lab__Section-bg-img {
+    position: absolute;
+    max-width: 30rem;
+}
+.lab__Section-bg-img img {
+    height: 12rem;
+    z-index: -1;
+    filter: saturate(0);
+    opacity: .2;
+}
+.lab__grids {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 8rem;
+    text-align: left;
+}
+.lab__grids-content-one, .lab__grids-content-two {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: flex-start;
+}
+.lab-course-button {
+    margin: .8rem 0 .6rem;
+    padding: 1.2rem 1.6rem;
+}
+.lab__grids-content-two {
+    background-color: #e0dbd874;
+    border-radius: 1rem;
+    padding: 2.4rem;
+    gap: 1.6rem;
+    justify-content: center;
+    align-self: center;
+}
+.lab__grids-content-two p i {
+    font-size: 1.8rem;
+    color: #333;
+}
+.lab__grids-content-two p {
+    line-height: 1.4;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    font-size: 1.6rem;
+    color: #555;
+}
+.lab-course-price {
+    display: flex;
+    align-items: flex-end;
+    gap: 1.2rem;
+}
+.lab-course-price span {
+    font-size: 2.8rem;
+}
+
+
+/*  */
+.lab-what__section {
+    color: #333;
+}
+.lab-what__section .lab__grids {
+    /* align-items: center; */
+}
+.lab-what__section .section__subHeading {
+    text-align: left;
+}
+.lab-what__section ul {
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #555;
+    margin: 4.2rem 0 0 1rem;
+}
+.lab-what__images {
+    margin: 8rem auto 0;
+    width: auto;
+}
+.lab-what__images img {
+    margin-top: .8rem;
+    transition: all .35s ease-in-out;
+}
+.lab-what__images img.img-svg {
+    height: 8.6rem;
+}
+.lab-what__images img:hover {
+    transform: rotate(15deg);
+}

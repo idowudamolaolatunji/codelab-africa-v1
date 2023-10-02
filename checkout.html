@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="public/assets/imgs/codelab-fav.png">
+
+    <!-- flat icons -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    
+
+    <!-- css style sheets -->
+    <link rel="stylesheet" href="public/src/css/general.css">
+    <link rel="stylesheet" href="public/src/css/other.css">
+    <link rel="stylesheet" href="public/src/css/query.css">
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+    <script defer src="public/src/js/checkout.js"></script>
+
+    <title>Code Corners Africa | Ignite Your Tech Passion</title>
+
+</head>
+
+<body>
+    <header class="header header--others">
+        <div class="header__container">
+            <span class="logo__box">
+                <a href="/index.html">
+                    <img class="nav__logo" src="public/assets/imgs/Codelab-light-mode.png" alt="logo image"/>
+                </a>
+            </span>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a style="color: #333;" href="/index.html#about">About Us</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a style="color: #333;" href="/index.html#labs">Our Labs</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a style="color: #333;" href="/index.html#team">Meet our Team</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a style="color: #333;" href="/index.html#testimonals">Testimonials</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a style="color: #333;" href="/index.html#contact">Contact Us</a>
+                    </li>
+                    <li class="navbar__button nav--others">
+                        <a style="color: #fff;" href="#">Apply Now</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- mobile navigation -->
+            <label class="menu-label mobile-nav">
+                <input class="menu-input" type="checkbox">
+                <span class="menu">
+                    <span class="hamburger"></span>
+                </span>
+                <ul class="menu-nav">
+                    <li>
+                        <a href="/index.html#about">About Us</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#courses">Our Courses</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#tutor">Meet our Tutor</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#testimonals">Testimonials</a>
+                    </li>
+                    <li>
+                        <a href="/index.html#contact">Contact Us</a>
+                    </li>
+                    <li class="navbar__button nav--main">
+                        <a href="#">Apply Now</a>
+                    </li>
+                </ul>
+            </label>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="checkout__section">
+            <div class="section__container">
+                <form class="checkout__form">
+                    <div class="checkout tab">
+                        <div class="form__container">
+                            <p class="checkout--heading">Begin Your Journey</p>
+                            <div class="form__item">
+                                <label class="form__label" for="name">Full Name</label>
+                                <input required type="text" class="form__input" id="name" placeholder="Enter full name"/>
+                            </div>
+                            <div class="form__item">
+                                <label class="form__label" for="email">Email Address</label>
+                                <input required type="email" class="form__input" id="email" placeholder="Enter email address"/>
+                            </div>
+                            <div class="form__item">
+                                <label class="form__label" for="phone">Phone Number</label>
+                                <input required type="tel" class="form__input" id="phone" placeholder="Enter phone number"/>
+                            </div>
+                            <div class="form__item">
+                                <label class="form__label" for="select">Course</label>
+                                <select class="form__select" id="select">
+                                    <option disabled value selected>Select a course</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <button class="form__submit button" data-tab="1">Next</button>
+                            </div>
+                        </div>
+                        <img class="checkout--image checkout--one" src="/public/assets/imgs/Codelab-light-mode.png" alt="checkout image" />
+                    </div>
+
+
+                    <div class="checkout tab">
+                        <div class="form__container assessment">
+                            <p class="checkout--heading">Take Short Assessment</p>
+                            <!-- 1 -->
+                            <div class="form__item form--margin">
+                                <p class="form__question">1. Do you have a passion for coding and build beautiful websites?</p>
+                                <div class="form--block">
+                                    <span class="form__radio">
+                                        <input type="radio" name="q1" id="q1-1" value="yes" />
+                                        <label for="q1-1">Yes</label>
+                                    </span>
+                                    <span class="form__radio">
+                                        <input type="radio" name="q1" id="q1-2" value="no" />
+                                        <label for="q1-2">No</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- 2 -->
+                            <div class="form__item form--margin">
+                                <p class="form__question">2. Do you have a Laptop or access to a computer?</p>
+                                <div class="form--block">
+                                    <span class="form__radio">
+                                        <input type="radio" name="q2" id="q2-1" value="yes" />
+                                        <label for="q2-1">Yes</label>
+                                    </span>
+                                    <span class="form__radio">
+                                        <input type="radio" name="q2" id="q2-2" value="no" />
+                                        <label for="q2-2">No</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- 3 -->
+                            <div class="form__item form--margin">
+                                <p class="form__question">3. Do you have access to the internet?</p>
+                                <div class="form--flex">
+                                    <span class="form__radio">
+                                        <input type="radio" name="q3" id="q3-1" value="Yes" />
+                                        <label for="q3-1">Yes</label>
+                                    </span>
+                                    <span class="form__radio">
+                                        <input type="radio" name="q3" id="q3-2" value="No" />
+                                        <label for="q3-2">No</label>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form__item">
+                                <button class="form__submit button" data-tab="2">Finish Up</button>
+                            </div>
+                        </div>
+                        <img class="checkout--image checkout--two" src="/public/assets/imgs/Codelab-light-mode.png" alt="checkout image" />
+                    </div>
+
+
+                    <div class="checkout tab">
+                        <div class="form__container">
+                            <p class="checkout--heading">Finish Your Application</p>
+                        
+                            <div class="form__item">
+                                <label class="form__label" for="select">State of Residence</label>
+                                <select class="form__select" id="select">
+                                    <option disabled value selected>Select a State</option>
+                                    <option value="Abuja-FCT">Abuja FCT</option>
+                                    <option value="Abia">Abia</option>
+                                    <option value="Adamawa">Adamawa</option>
+                                    <option value="Akwa-Ibom">Akwa Ibom</option>
+                                    <option value="Anambra">Anambra</option>
+                                    <option value="Bauchi">Bauchi</option>
+                                    <option value="Bayelsa">Bayelsa</option>
+                                    <option value="Benue">Benue</option>
+                                    <option value="Borno">Borno</option>
+                                    <option value="Cross River">Cross River</option>
+                                    <option value="Delta">Delta</option>
+                                    <option value="Ebonyi">Ebonyi</option>
+                                    <option value="Edo">Edo</option>
+                                    <option value="Ekiti">Ekiti</option>
+                                    <option value="Enugu">Enugu</option>
+                                    <option value="Gombe">Gombe</option>
+                                    <option value="Imo">Imo</option>
+                                    <option value="Jigawa">Jigawa</option>
+                                    <option value="Kaduna">Kaduna</option>
+                                    <option value="Kano">Kano</option>
+                                    <option value="Katsina">Katsina</option>
+                                    <option value="Kebbi">Kebbi</option>
+                                    <option value="Kogi">Kogi</option>
+                                    <option value="Kwara">Kwara</option>
+                                    <option value="Lagos">Lagos</option>
+                                    <option value="Nassarawa">Nassarawa</option>
+                                    <option value="Niger">Niger</option>
+                                    <option value="Ogun">Ogun</option>
+                                    <option value="Ondo">Ondo</option>
+                                    <option value="Osun">Osun</option>
+                                    <option value="Oyo">Oyo</option>
+                                    <option value="Plateau">Plateau</option>
+                                    <option value="Rivers">Rivers</option>
+                                    <option value="Sokoto">Sokoto</option>
+                                    <option value="Taraba">Taraba</option>
+                                    <option value="Yobe">Yobe</option>
+                                    <option value="Zamfara">Zamfara</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <label class="form__label" for="select">How did you hear about Us</label>
+                                <select class="form__select" id="select">
+                                    <option disabled value selected>Select an option</option>
+                                    <option value="">Linkedin </option>
+                                    <option value="">Twitter</option>
+                                    <option value="">Whatsapp</option>
+                                    <option value="">A friend</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <label class="form__label" for="select">Registration fee</label>
+                                <select class="form__select" id="select">
+                                    <option disabled value selected>Select an option</option>
+                                    <option value="">Full Payment </option>
+                                    <option disabled >Part Payment</option>
+                                </select>
+                            </div>
+                            <div class="form__item">
+                                <button class="form__submit button">Submit</button>
+                            </div>
+                        </div>
+                        <img class="checkout--image checkout--three" src="/public/assets/imgs/Codelab-light-mode.png" alt="checkout image" />
+                    </div>
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer footer--other">
+        <div class="section__container">
+            <img src="/public/assets/imgs/Codelab.png" alt="footer logo" />
+            <div class="footer__grid">
+                <div>
+                    <P>Join us Code Corners Africa as we share our dedication to guiding and nurturing a new generation of undiscovered tech talents.</P>
+                    <p class="copyright">&copy;2023 Code Corners Africa. All rights reserved.</p>
+                </div>
+                <ul >
+                    <li class="list--heading">Company</li>
+                    <li><a href="/index.html#about">About Us</a></li>
+                    <li><a href="/index.html#courses">Our Courses</a></li>
+                    <li><a href="/index.html#tutor">Tutor</a></li>
+                    <li><a href="/index.html#contact">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li class="list--heading">Access</li>
+                    <li><a href="/join.html">Join Our Community</a></li>
+                    <li><a href="#">Apply Now</a></li>
+                    <li><a href="/partner.html">Partnership</a></li>
+                </ul>
+                <ul>
+                    <li class="list--heading">Contact</li>
+                    <li><a href="mailto:codecornerafrica@gmail.com"><i class="fi fi-rr-envelope"></i> codecornerafrica@gmail.com</a></li>
+                    <li><a href="tel:09057643470"><i class="fi fi-rr-phone-flip"></i> 09057643470</a></li>
+                    <span class="profile--socials">
+                        <a target="_blank" href="https://ng.linkedin.com/in/idowu-damola-olatunji-595a80218"><i class="fi fi-brands-linkedin"></i></a>
+                        <a target="_blank" href="https://twitter.com/damolaidowu06?t=CIYAvOVqhUKycNPURdPoXw&s=08 "><i class="fi fi-brands-twitter"></i></a>
+                        <a target="_blank" href="https://github.com/idowudamolaolatunji"><i class="fi fi-brands-github"></i></a>
+                        <a target="_blank" href="https://github.com/idowudamolaolatunji"><i class="fi fi-brands-youtube"></i></a>
+                    </span>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
